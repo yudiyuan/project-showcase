@@ -1,0 +1,90 @@
+/* General styles - Improve page structure and readability */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar - Fixed at the top */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1050; /* Ensure navbar stays on top */
+}
+
+/* Header section */
+header {
+    background-color: #00d5ff; /* Bootstrap primary color */
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Set background colors for different sections */
+#about {
+    background-color: #f3b9bd; /* Light pink */
+    padding: 40px 20px;
+}
+
+#skills {
+    background-color: #d4edda; /* Light green */
+    padding: 40px 20px;
+}
+
+#more {
+    background-color: #d4d9ed; /* Light purple */
+    padding: 40px 20px;
+}
+
+#reflection {
+    background-color: #f4d87e; /* Light yellow */
+    padding: 40px 20px;
+}
+
+
+/* Set the background color of the table inside #skills */
+#skills .table {
+    background-color: transparent !important; /* Match skills section */
+}
+
+#skills .table th, 
+#skills .table td {
+    background-color: #eaf5ea; /* Softer green */
+}
+
+/* Table styling */
+.table th {
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive design - Change background color to white for small screens */
+@media (max-width: 460px) {
+    body #about,
+    body #skills,
+    body #more,
+    body #reflection {
+        background-color: white !important;
+    }
+
+    #skills .table th, 
+    #skills .table td {
+        background-color: white !important; /* Ensure table cells are also white */
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
