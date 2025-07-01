@@ -1,4 +1,4 @@
-package Project;
+package Project.TextAdventureGame;
 //This is the best one I can do
 
 import javax.swing.*;
