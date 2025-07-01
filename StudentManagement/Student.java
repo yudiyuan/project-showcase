@@ -1,4 +1,4 @@
-package StudentManagement;
+package Project.StudentManagement;
 
 public class Student {
     //学号 姓名 年龄 性别

@@ -1,4 +1,4 @@
-package StudentManagement;
+package Project.StudentManagement;
 
 public class ArrayUtils {
 //工具类构造私有

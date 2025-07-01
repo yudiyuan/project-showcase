@@ -1,4 +1,4 @@
-package StudentManagement;
+package Project.StudentManagement;;
 
 import java.util.Scanner;
 
