@@ -1,0 +1,35 @@
+# IntelliJ project files
+.idea/
+*.iml
+
+# Build output
+/out/
+target/
+build/
+
+# Java class files
+*.class
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (如果你也用 VSCode)
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Maven / Gradle specific (如果将来用到)
+*.jar
+*.war
+*.ear
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# JetBrains related
+*.iws
