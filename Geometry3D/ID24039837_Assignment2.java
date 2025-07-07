@@ -193,9 +193,7 @@ class TriangularPrism extends EquilateralTriangle implements Comparable<Triangul
         this.lengthPrism = lengthPrism;
     }
 
-    //如果子类中 没有重写（override）某个方法，比如 getArea()，那你直接调用 getArea() 就是调用父类的那个版本；
-    //如果子类中重写了 getArea()，那么直接调用 getArea() 就是调用子类自己的版本；
-    //如果你无论如何都想调用父类的版本（即使子类重写了），那就用 super.getArea()。
+   
     public double getVolume() {
         return getArea() * lengthPrism;
     }
@@ -335,7 +333,7 @@ class Geometry3D.TriangularPyramid extends Geometry3D.EquilateralTriangle implem
 
 
 /*
-public class Geometry3D.ID24039837_Assignment2 {
+public class Geometry3DShapes {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ThreeDshape[] shapes = new ThreeDshape[5];
